@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+ 
+{% block title %}Home Page{% endblock %}
+ 
+{% block content %}
+<table id="user-table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Social Security Number</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for name,ssn in data %}
+    <tr>
+        <td>{{ name }}</td>
+        <td>{{ ssn }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

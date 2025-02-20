@@ -1,0 +1,39 @@
+/* Cool Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr:hover {
+    background-color: #eaeaea;
+}
+
+table td:hover {
+    background-color: #d3d3d3;
+}
+
+table th:hover {
+    background-color: #666;
+}
